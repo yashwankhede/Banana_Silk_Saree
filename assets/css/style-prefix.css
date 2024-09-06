@@ -22,15 +22,16 @@
 
   --spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(0, 0%, 47%);
-  --eerie-black: hsl(0, 0%, 13%);
+  --eerie-black: hsl(0, 0%, 0%);
   --salmon-pink: hsl(353, 100%, 78%);
   --sandy-brown: hsl(29, 90%, 65%);
   --bittersweet: hsl(0, 100%, 70%);
   --ocean-green: hsl(152, 51%, 52%);
   --davys-gray: hsl(0, 0%, 33%);
   --cultured: hsl(0, 0%, 93%);
-  --white: hsl(0, 100%, 100%);
+  --white: hsl(0, 0%, 100%);
   --onyx: hsl(0, 0%, 27%);
+  --blue: hsl(195, 100%, 59%);
 
   /**
    * typography
@@ -1602,11 +1603,11 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .product-grid .showcase-actions {
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 8px;
   font-size: 20px;
-  -webkit-transform: translateX(50px);
-      -ms-transform: translateX(50px);
-          transform: translateX(50px);
+  -webkit-transform: translateX(120%);
+      -ms-transform: translateX(120%);
+          transform: translateX(120%);
   -webkit-transition: var(--transition-timing);
   -o-transition: var(--transition-timing);
   transition: var(--transition-timing);
@@ -1616,8 +1617,8 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .product-grid .showcase:hover .showcase-actions { -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); }
 
 .product-grid .btn-action {
-  background: var(--white);
-  color: var(--sonic-silver);
+  background: var(--blue);
+  color: var(--eerie-black);
   margin-bottom: 5px;
   border: 1px solid var(--cultured);
   padding: 5px;
@@ -1629,12 +1630,12 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .product-grid .btn-action:hover {
-  background: var(--eerie-black);
+  background: var(--ocean-green);
   color: var(--white);
   border-color: var(--eerie-black);
 }
 
-.product-grid .showcase-content { padding: 15px 20px 0; }
+.product-grid .showcase-content { padding: 25px 20px 0; }
 
 .product-grid .showcase-category {
   color: var(--salmon-pink);
